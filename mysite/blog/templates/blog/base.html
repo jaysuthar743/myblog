@@ -41,7 +41,7 @@
 					<li><a href="{% url 'post_new' %}">New Post</a></li>
 					<li><a href="{% url 'post_draft_list' %}">Drafts</a></li>
 					<li><a href="{% url 'logout' %}">Logout</a></li>
-					<li style="margin-top: 10px">Welcome {{user.username}}</li>
+					<li style="margin-top: 20px">Welcome {{user.username}}</li>
 				{%else%}
 	<li> <a class="nav navbar-right" href="{% url 'login' %}"></a><span class="glyphicon glyphicon-user"></span></li>
 				{% endif %}
